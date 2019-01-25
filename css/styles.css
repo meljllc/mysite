@@ -2,34 +2,42 @@ body{
   margin: auto;
   text-align: center;
   font-family: 'Merriweather Sans', sans-serif;
-  color: #ffc4d0;
+  color: #d84c73;
   background-color: #fcf5ee;
-  line-height: 80%;
+}
 
+hr {
+  border-style: dotted none none;
+  border-color: #ffc4d0;
+  width: 100px;
+  border-width: 10px;
 }
 
 h1{
   font-family: 'Sacramento', cursive;
   color: #ffc4d0;
-  margin-top: 20%;
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: bold;
-
 }
 
 h2{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2.5rem;
-  font-weight: normal;
+  font-family: 'Sacramento', cursive;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 0 300px 0 300px;
 }
 
+
 h3{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Sacramento', cursive;
+  text-align: center;
+  font-weight: bold;
+  font-size: 3rem;
 }
 
 .mountain-image{
   width: 100%;
-  padding-top: 50px;
 }
 
 .cloud-1-image{
@@ -48,10 +56,19 @@ h3{
   margin: auto;
 }
 
+.profile{
+  text-align: justify;
+  padding: 300px;
+  line-height: 200%;
+}
+
 .profile-picture{
   border-radius: 100%;
-  width: 15%;
+  width: 25%;
   position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .container-1{
@@ -65,26 +82,31 @@ h3{
 .container-2{
   position: relative;
   background-color: white;
-  padding-top: 100px;
-  padding-bottom: 220px;
   margin: auto;
 }
 
 .skills-image{
   position: relative;
-  top: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .skills{
   margin: auto;
 }
 
+.skill-row{
+  text-align: justify;
+  padding: 0 300px 150px 300px;
+  line-height: 200%;
+}
 
 .container-3{
   position: relative;
-  background-color: #fcf5ee;
-  padding-top: 100px;
-  padding-bottom: 220px;
+  background-color: white;
+  padding-bottom: 150px;
+  padding-top: 150px;
   margin: auto;
 }
 
@@ -93,21 +115,27 @@ h3{
   background-color: white;
   padding-top: 150px;
   padding-bottom: 150px;
+  margin: auto;
 }
 
 .container-5{
   position: relative;
   background-color: #fcf5ee;
-  padding-top: 50px;
+  padding: 50px 300px 50px 300px;
 }
-
 
 .touch-screen{
-  position: absolute;
-  left: 650px;
-  top: 11%;
-  padding-bottom: 100px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+.contact{
+    text-align: justify;
+    line-height: 200%;
+    padding: 0 300px 0 300px;
+  }
 
 .butn{
   -webkit-border-radius: 28;
@@ -134,7 +162,15 @@ h3{
 .butn{
   position: absolute;
   left: 635px;
-  top: 80%;
+}
+
+.links{
+  color: #d84c73;
+  text-decoration: none;
+}
+
+.links:hover{
+  color: #951555;
 }
 
 .footer-link{
@@ -145,11 +181,8 @@ h3{
   text-decoration: none;
 }
 
-.footer-link:hover{
-  color: #951555;
-}
-
 .copyright{
   color:#f18a9b;
   font-size: 50%;
+  margin: 10px 20px;
 }
