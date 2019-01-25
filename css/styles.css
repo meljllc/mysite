@@ -3,7 +3,6 @@ body{
   text-align: center;
   font-family: 'Merriweather Sans', sans-serif;
   color: #d84c73;
-  background-color: #fcf5ee;
 }
 
 hr {
@@ -25,7 +24,6 @@ h2{
   font-size: 3rem;
   font-weight: bold;
   text-align: center;
-  padding: 0 300px 0 300px;
 }
 
 
@@ -71,12 +69,15 @@ h3{
   margin-right: auto;
 }
 
-.container-1{
-  background-color: #fcf5ee;
+.container-1-middle {
   padding-top: 150px;
   position: relative;
   margin: auto;
   width: 30%;
+}
+
+.container-1 {
+    background-color: #fcf5ee;
 }
 
 .container-2{
@@ -132,9 +133,7 @@ h3{
 }
 
 .contact{
-    text-align: justify;
     line-height: 200%;
-    padding: 0 300px 0 300px;
   }
 
 .butn{
@@ -149,6 +148,10 @@ h3{
   text-decoration: none;
 }
 
+#butn-wrapper{
+  margin-top: 100px;
+}
+
 .butn:hover{
   background: #ffc4d0;
   background-image: -webkit-linear-gradient(top, #ffc4d0, #ffc4d0);
@@ -157,11 +160,6 @@ h3{
   background-image: -o-linear-gradient(top, #ffc4d0, #ffc4d0);
   background-image: linear-gradient(to bottom, #ffc4d0, #ffc4d0);
   text-decoration: none;
-}
-
-.butn{
-  position: absolute;
-  left: 635px;
 }
 
 .links{
