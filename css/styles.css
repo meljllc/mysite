@@ -2,7 +2,7 @@ body{
   margin: auto;
   text-align: center;
   font-family: 'Merriweather Sans', sans-serif;
-  color: #d84c73;
+  color: #4a4a48;
 }
 
 hr {
@@ -20,18 +20,18 @@ h1{
 }
 
 h2{
-  font-family: 'Sacramento', cursive;
-  font-size: 3rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
   font-weight: bold;
   text-align: center;
 }
 
 
 h3{
-  font-family: 'Sacramento', cursive;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .mountain-image{
@@ -101,6 +101,14 @@ h3{
   text-align: justify;
   padding: 0 300px 150px 300px;
   line-height: 200%;
+}
+
+.GSP-pic{
+  width: 80%;
+}
+
+.mobileX-pic{
+  width: 60%;
 }
 
 .container-3{
