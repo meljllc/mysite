@@ -103,18 +103,17 @@ h3{
   line-height: 200%;
 }
 
-.GSP-pic{
-  width: 80%;
+.GSP-vid{
+  width: 150%;
 }
 
-.mobileX-pic{
+.mobilex-vid{
   width: 60%;
 }
 
 .container-3{
   position: relative;
   background-color: white;
-  padding-bottom: 150px;
   padding-top: 150px;
   margin: auto;
 }
